@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.wholeContent2{
+    background-image: url('/assets/img/hotel4.jpg');
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{    
+    display: flex;
+}
+
+.tagline{
+    flex: 1;
+    margin-left: 40%;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    
+}
+
+.content-color{
+    color: #e46b0f;
+}
+.tagline-2{
+    margin-left: 18%;
+    margin-top: -10%;
+    
+}
+.profile{
+    flex: 1;
+}
+.profile-button{
+    margin-left: 50%;
+}
+#dropdown-basic{
+    background-color: unset;
+    opacity: 1;
+    border-color: none;
+    border-radius: 50%;
+    border: none;
+    
+}
+.profile-button-links{
+    color: #e46b0f;
+}
+#dropdown-basic:focus{ 
+    outline: none;
+}
+
+.captionHeading{
+    margin-left: 40%;
+    margin-top:8%;
+}
+.hotels{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+}
+.card-hotel{
+    margin-top: 5%;
+}
+.cards{
+    margin-top: 50px;
+}
+.card-wrapper{
+    border: turquoise 2px solid;
+    border-radius: 15px ;
+    
+}
+.card-image{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 150px;
+    width: 100px;
+}
+button{
+    border: none;
+    box-shadow: none;
+    color: white;
+    border-radius: 10px;
+    background-color: green;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.price{
+    color: green;
+}

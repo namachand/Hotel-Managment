@@ -1,0 +1,21 @@
+.root {
+  color: #e46b0f;
+}
+.img-logo{
+  margin-left: 5%;
+  border-radius: 50% ;
+}
+.links{
+  list-style: none;
+  margin-right: 10px;
+}
+.links .links-list{
+  margin-top: 80%;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.links-list:hover{
+    color: red;
+
+}
